@@ -14,11 +14,11 @@ def main():
     startTime = time.time()
     
     # Change this to change size of the array, please limit to 1 million (1000000)
-    arraySize = 10000
+    arraySize = 1000
 
     # Total number of times to create the random 2d array for calculation.
     # arraySize x numberOfRuns = total number of rolls you finally perform
-    numberOfRuns = 100000
+    numberOfRuns = 1000000
 
     for x in range(numberOfRuns):
 
